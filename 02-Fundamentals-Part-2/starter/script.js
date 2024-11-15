@@ -27,6 +27,7 @@ function fruitProcessor(apples, oranges) {
 console.log(fruitProcessor(5, 0));
 */
 
+/*
 // FUNCTION DECLARATIONS
 
 function calcAge1(birthYear) {
@@ -58,3 +59,26 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 };
 
 console.log(yearsUntilRetirement(2000, "mike"));
+*/
+
+// functions calling other functions
+
+// function fruitProcessor(apples, oranges) {
+//   const juice = `Juice with ${apples} apples and ${oranges} oranges`;
+//   return juice;
+// }
+
+// Arrays
+
+const friends = ["mike", "eleven", "will", "dustin"];
+console.log(friends);
+
+const years = new Array(1991, 1992, 1993, 1994);
+console.log(years);
+
+console.log(friends[2]);
+console.log(friends.length);
+console.log(friends[friends.length - 1]);
+
+friends[2] = "lukas";
+console.log(friends);
