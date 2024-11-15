@@ -70,15 +70,61 @@ console.log(yearsUntilRetirement(2000, "mike"));
 
 // Arrays
 
-const friends = ["mike", "eleven", "will", "dustin"];
-console.log(friends);
+// const friends = ["mike", "eleven", "will", "dustin"];
+// console.log(friends);
 
-const years = new Array(1991, 1992, 1993, 1994);
-console.log(years);
+// const years = new Array(1991, 1992, 1993, 1994);
+// console.log(years);
 
-console.log(friends[2]);
-console.log(friends.length);
-console.log(friends[friends.length - 1]);
+// console.log(friends[2]);
+// console.log(friends.length);
+// console.log(friends[friends.length - 1]);
 
-friends[2] = "lukas";
-console.log(friends);
+// friends[2] = "lukas";
+// console.log(friends);
+
+// Objects
+
+// const jonas = {
+//   firstName: "jonas",
+//   lastName: "Schmedtmann",
+//   age: 2037 - 1991,
+//   job: "teacher",
+//   friends: ["mike", "will", "dustin"],
+// };
+// console.log(jonas);
+
+// console.log(jonas.firstName);
+// console.log(jonas.lastName);
+// console.log(jonas.age);
+// console.log(jonas["friends"]);
+// console.log(jonas["job"]);
+
+// const nameKey = "Name";
+// console.log(jonas["first" + nameKey]);
+
+// const jonas = {
+//   firstName: "jonas",
+//   lastName: "Schmedtmann",
+//   birthYear: 1991,
+//   job: "teacher",
+//   friends: ["mike", "will", "dustin"],
+//   hasDriversLicense: true,
+
+// calcAge: function () {
+//   return 2024 - this.birthYear;
+// },
+
+//   calcAge: function () {
+//     this.age = 2024 - this.birthYear;
+//     return this.age;
+//   },
+// };
+
+// console.log(jonas.calcAge());
+// console.log(jonas.age);
+// console.log(jonas["calcAge"](1991));
+
+for (let rep = 1; rep <= 10; rep++) {
+  console.log(`Lifting weights repetition ${rep}`);
+}
