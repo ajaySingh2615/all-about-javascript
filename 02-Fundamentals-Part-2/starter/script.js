@@ -10,6 +10,7 @@
 // if (hasDriverLicense) console.log("I can drive!");
 
 // FUNCTIONS
+/*
 
 function logger() {
   console.log("My name is mike");
@@ -24,3 +25,22 @@ function fruitProcessor(apples, oranges) {
 }
 
 console.log(fruitProcessor(5, 0));
+*/
+
+// FUNCTION DECLARATIONS
+
+function calcAge1(birthYear) {
+  return 2024 - birthYear;
+}
+
+const age1 = calcAge1(2000);
+console.log(age1);
+
+// FUNCTION EXPRESSION
+
+const calcAge2 = function (birthYear) {
+  return 2024 - birthYear;
+};
+
+const age2 = calcAge2(2000);
+console.log(age2);
